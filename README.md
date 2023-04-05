@@ -15,7 +15,7 @@ It allows you to write `(sequence "a" "b")` as `["a" "b"]`, and `(choice "a" "b"
 
 `square/peg` implicitly wraps its arguments in `quasiquote`, so you don't need to manually quote them. You can `unquote` normally.
 
-```
+```janet
 (import square)
 
 (peg/match
