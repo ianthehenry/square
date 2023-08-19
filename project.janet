@@ -1,10 +1,8 @@
 (declare-project
   :name "square"
   :description "square peg, round hole"
-  :dependencies [
-     {:url "https://github.com/ianthehenry/judge.git"
-      :tag "v2.3.1"}
-  ])
+  :dependencies
+    ["https://github.com/ianthehenry/judge.git"])
 
 (declare-source
   :prefix "square"
